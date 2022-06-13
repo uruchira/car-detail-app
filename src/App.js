@@ -4,8 +4,11 @@ import { carObjectByType } from "./helper/carObjectByType";
 // This function accepts the car type and returns a car object.
 // No need to do any changes to this function when adding a new type or deleting an existing type.
 const getCar = (carType) => {
-  const carObject = carObjectByType[carType]();
-  return carObject;
+  if (carType && carObjectByType[carType]) {
+    const carObject = carObjectByType[carType]();
+    return carObject;
+  }
+  return null;
 };
 
 console.log(getCar("electric"));
