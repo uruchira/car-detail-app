@@ -15,4 +15,6 @@ export const carObjectByType = {
   hybrid: getHybridCar, // Mapping the newly added car type
 };
 
+// You can add a new key with getter function whenever you add new car type.
+// And whenever you need to remove, the matching key and getter function will be removed.
 // This entire object can be moved to 'carTypes.js' file rather than having its own file.

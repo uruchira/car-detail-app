@@ -34,11 +34,8 @@ export const getSportCar = () => {
   };
 };
 
-/*
-  This function is added to show the extensibility.
-  Whenever a new car type is introduced, a new function needs to be added with the same pattern.
-  E.g. If the new car type is hybrid, then 'getHybridCar()' will return a hybrid car object.
-*/
+// Whenever a new car type is introduced, a new function needs to be added with the same pattern.
+// E.g. If the new car type is hybrid, then 'getHybridCar()' will return a hybrid car object.
 
 export const getHybridCar = () => {
   return {
@@ -48,3 +45,6 @@ export const getHybridCar = () => {
     batteryLife: "5 yrs", // Unique part or property
   };
 };
+
+// Whenever a car type is removed, the relevant function can be removed from here.
+// Sametime the matching key from the 'carObjectByType' object must be removed.

@@ -18,13 +18,21 @@ code {
 }
 
 h1,
+ul,
 p {
-  text-align: center;
+  margin-left: 20px;
 }
 
 h1 {
   font-weight: normal;
-  margin-top: 20px;
+  margin: 20px 0 5px 20px;
+}
+
+ul {
+  list-style: none;
+  font-style: italic;
+  margin-bottom: 10px;
+  text-align: justify;
 }
 
 p {
