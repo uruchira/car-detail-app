@@ -1,5 +1,5 @@
 // Each function returns a car object according to the car type.
-// E.g. If the type is 'Electric', then 'getElectricCar()' will return an Electric Car object.
+// E.g. If the type is 'Electric', then 'getElectricCar()' will return an electric car object.
 
 // Each car type has parts and properties which are common to all types.
 // They also have unique parts and properties of their own.
@@ -35,9 +35,9 @@ export const getSportCar = () => {
 };
 
 /*
-  This function is added to show the extensibility
-  Whenever a new car type is introduced, a new function needs to add following the same pattern.
-  E.g. The new car type is hybrid, so getHybridCar will return a hybrid car object.
+  This function is added to show the extensibility.
+  Whenever a new car type is introduced, a new function needs to be added with the same pattern.
+  E.g. If the new car type is hybrid, then 'getHybridCar()' will return a hybrid car object.
 */
 
 export const getHybridCar = () => {

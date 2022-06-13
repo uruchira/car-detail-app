@@ -1,14 +1,18 @@
-# Getting Started with Create React App
+## Please refer these files
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. App.js
+2. helper/carObjectByType.js
+3. helper/carTypes.js
 
-## Available Scripts
+All the assumptions and remarks are stated as comments in these files.
+
+## How to run the app
 
 In the project directory, you can run:
 
 ### `yarn`
 
-Install all dependencies in package.json. Similar to _npm install_
+Install all dependencies in "package.json". Similar to _npm install_
 
 ### `yarn start`
 
@@ -23,12 +27,4 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
----
-
-## Please refer these files
-
-1. App.js
-2. helper/carObjectByType.js
-3. helper/carTypes.js
-
-All the assumptions and remarks are stated as comments in these files.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

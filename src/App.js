@@ -1,13 +1,13 @@
+import React from "react";
 import { carObjectByType } from "./helper/carObjectByType";
 
-// This function returns a car object according to car type.
-// No need to do any changes in this function when adding a new type or deleting an existing type.
+// This function accepts the car type and returns a car object.
+// No need to do any changes to this function when adding a new type or deleting an existing type.
 const getCar = (carType) => {
   const carObject = carObjectByType[carType]();
   return carObject;
 };
 
-// E.g. This is how to get the car object by passing car type.
 console.log(getCar("electric"));
 console.log(getCar("twoWheels"));
 console.log(getCar("sport"));
